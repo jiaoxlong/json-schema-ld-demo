@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#jsc {
+  display:inline-block;
+  position: relative;
+  margin: 2px;
+  float:left;
+  width: calc(30% - 10px)
+}
+
+#rdfs, #shacl {
+  display:inline-block;
+  position: relative;
+  margin: 2px;
+  float:left;
+  width: calc(30% - 10px)
+}
