@@ -1,0 +1,73 @@
+{
+  "name": "json-schema-ld-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@treecg/types": "^0.4.0",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^16.18.27",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@uiw/react-textarea-code-editor": "^2.1.1",
+    "axios": "^1.4.0",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "core-js": "^3.30.2",
+    "fs": "^0.0.1-security",
+    "inflection": "^2.0.1",
+    "json-schema-ld": "^3.2.9",
+    "n3": "^1.16.4",
+    "path-type": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-json-editor-ajrm": "^2.5.14",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "gh-pages": "^5.0.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "setimmediate": "^1.0.5",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}
